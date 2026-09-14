@@ -24,9 +24,11 @@ FOND = os.path.join(PHOTOS, "_demo-fond.jpg")            # remplace par ta photo
 CAPTURE = os.path.join(SCREENS, "_demo-capture.png")    # remplace par ta capture
 if not os.path.exists(CAPTURE):
     # une carte de démo, pour voir où va la preuve ; ta vraie capture la remplace
+    from deck import body, display
     im = Image.new("RGB", (1600, 400), (246, 245, 242)); d = ImageDraw.Draw(im)
-    d.text((60, 120), "ta capture ici  (dashboard, compteur, message reçu)", fill=(40, 40, 40))
-    d.text((1300, 150), "194", fill=(20, 20, 20))
+    d.text((70, 130), "ta capture ici", font=body(56, weight=600), fill=(40, 40, 40))
+    d.text((70, 215), "un dashboard, un compteur, un message reçu", font=body(34), fill=(120, 116, 110))
+    d.text((1300, 130), "194", font=display(96), fill=(20, 20, 20))
     im.save(CAPTURE)
 
 # --- 01 · qui parle : le point de départ ------------------------------------
