@@ -25,7 +25,7 @@ Le style est celui des stories de Nik Setting : une photo de toi en fond, la pre
 
 | Commande | Ce que ça fait |
 |---|---|
-| `/stories` | Te pose 5 questions, écrit 4 slides, les rend, te les montre, et les publie en story sur Instagram puis Facebook |
+| `/stories` | Te pose les questions qui manquent, écrit la séquence, la rend, te la montre, câble le mot-clé si besoin, et publie en story sur Instagram puis Facebook |
 
 ## Structure
 

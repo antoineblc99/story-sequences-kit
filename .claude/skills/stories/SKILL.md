@@ -52,7 +52,7 @@ Avant d'envoyer quoi que ce soit, vérifie que le mot-clé a une réponse :
 - `list_sequences` doit montrer une séquence `story_reply` active sur ce mot,
 - son bouton doit pointer vers la ressource promise. Demande-lui le lien, ouvre-le, vérifie qu'il mène bien à ce que la story annonce. Une ressource pas encore créée, c'est une séquence à reporter.
 
-Rien de tout ça ? Propose `install_playbook` avec le playbook `story-lead-magnet` (mot-clé, lien, texte du DM dans sa voix), montre le DM rendu, installe seulement s'il dit oui.
+Rien de tout ça ? Propose `install_playbook` avec le playbook `story-sequences` (slot `account` = son Instagram ; inputs `keyword`, `link`, et `first_dm` réécrit dans sa voix), montre d'abord le rendu de `get_playbook`, installe seulement s'il dit oui. C'est toi qui l'installes, pas lui dans le dashboard.
 
 Puis, slide par slide, dans l'ordre :
 1. `create_media_upload` avec le nom du fichier, envoie les octets avec `curl -T slide-N.jpg "<uploadUrl>"`.
