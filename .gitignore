@@ -1,0 +1,11 @@
+.DS_Store
+out/*/
+stories/build.py
+pictures/moi/*
+pictures/screens/*
+pictures/references/*
+!pictures/moi/.gitkeep
+!pictures/moi/_demo-fond.jpg
+!pictures/screens/.gitkeep
+!pictures/references/.gitkeep
+__pycache__/
