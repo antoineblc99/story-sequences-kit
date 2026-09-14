@@ -14,7 +14,7 @@ Le style est celui des stories de Nik Setting : une photo de toi en fond, la pre
 
 1. Télécharge ce kit (bouton **Code → Download ZIP**, ou `git clone`). Tu obtiens un dossier `story-sequences-kit`. Glisse-le tel quel dans ton dossier `content-os`.
 2. Ouvre `content-os` dans Claude Code et colle-lui :
-   > Installe le kit stories : si j'ai déjà un CLAUDE.md, fusionne-le avec celui du kit. Puis déplace tout le contenu de story-sequences-kit (y compris les fichiers cachés) à la racine de ce dossier, supprime le dossier vide, et lance `python3 stories/build_example.py` pour vérifier que le rendu marche. Montre-moi les 4 images.
+   > Installe le kit stories : déplace tout le contenu de story-sequences-kit (y compris les fichiers cachés) à la racine de ce dossier, supprime le dossier vide, et lance `python3 stories/build_example.py` pour vérifier que le rendu marche. Montre-moi les 4 images.
 3. Dépose tes images :
    - `pictures/references/` : 3 à 5 captures de stories dont tu aimes le rendu
    - `pictures/moi/` : tes photos (Claude les classe)
