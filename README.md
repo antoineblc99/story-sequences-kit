@@ -6,7 +6,7 @@ Le style est celui des stories de Nik Setting : une photo de toi en fond, la pre
 
 ## Ce qu'il te faut
 
-- Claude Code (l'app), avec un dossier de travail `content-os`
+- Claude Code ou Codex (le kit contient le skill pour les deux : `.claude/skills/` et `.agents/skills/`, et un `AGENTS.md`), avec un dossier de travail `content-os`
 - PlugKit branché sur Claude par son serveur MCP, avec ton Instagram connecté (et ta Page Facebook si tu en as une). Essai gratuit sur plugkit.co
 - 10 photos de toi, 3 stories que tu aimes, et une capture qui prouve ce que tu veux dire
 
